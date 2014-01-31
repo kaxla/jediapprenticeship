@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Jedi:</strong>
+  <%= @apprenticeship.jedi.name %>
+</p>
+
+<p>
+  <strong>Padawan:</strong>
+  <%= @apprenticeship.padawan.name %>
+</p>
+
+<%= link_to 'Edit', edit_apprenticeship_path(@apprenticeship) %> |
+<%= link_to 'Back', apprenticeships_path %>
