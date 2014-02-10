@@ -15,8 +15,14 @@
   <%= f.select :jedi_id, Jedi.all.collect { |p| [ p.name, p.id ] } %>
 </div>
 <div class="field">
-  <%=f.select :padawan_id, Padawan.all.collect { |p| [ p.name, p.id ]} %>
+  <%= f.select :padawan_id, Padawan.all.collect { |p| [ p.name, p.id ]} %>
 </div>
+
+<div class="field">
+  <%= f.label :level %>
+  <%= f.number_field :level %>
+</div>
+
 <div class="actions">
   <%= f.submit %>
 </div>

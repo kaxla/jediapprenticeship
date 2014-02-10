@@ -7,9 +7,10 @@ Jedi Apprenticeship allows you to pair up your jedis with their padawans for eas
 
 ## Usage
 
-Usage explanation goes here
 1. Add your Jedis by going to New Jedi and your Padawans by going to New Padawans
 2. Select New Apprenticeship and choose your jedi/padawan from the drop down menues
+
+
 
 ## Authors
 
@@ -18,4 +19,4 @@ Usage explanation goes here
 
 ## License
 
-Your Licensing Information goes here. Example: MIT/X11.
+http://kaxla.mit-license.org

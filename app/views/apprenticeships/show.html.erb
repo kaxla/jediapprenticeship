@@ -10,5 +10,10 @@
   <%= @apprenticeship.padawan.name %>
 </p>
 
+<p>
+  <strong>Level:</strong>
+  <%= @apprenticeship.level %>
+</p>
+
 <%= link_to 'Edit', edit_apprenticeship_path(@apprenticeship) %> |
 <%= link_to 'Back', apprenticeships_path %>

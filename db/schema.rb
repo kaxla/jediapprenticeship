@@ -11,13 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140131015046) do
+ActiveRecord::Schema.define(version: 20140131034904) do
 
   create_table "apprenticeships", force: true do |t|
     t.integer  "jedi_id"
     t.integer  "padawan_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "level"
   end
 
   create_table "jedis", force: true do |t|

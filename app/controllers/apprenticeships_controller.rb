@@ -69,6 +69,6 @@ class ApprenticeshipsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def apprenticeship_params
-      params.require(:apprenticeship).permit(:jedi_id, :padawan_id)
+      params.require(:apprenticeship).permit(:jedi_id, :padawan_id, :level)
     end
 end
